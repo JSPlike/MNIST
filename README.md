@@ -11,7 +11,9 @@
     
     hypothesis = x * W + b
 ```
-cost(W, b) = $$ \frac{1}{m} \sum_{i=1}^{m}(H(x^i) - y^2i)^2 $$
+cost(W, b) = 
+
+$$ \frac{1}{m}\sum_{i=1}^{m} (H(x^i) - y^i)^2 $$
 
 ```
  cost = reduce_mean(tf.square(hypothesis - y))
