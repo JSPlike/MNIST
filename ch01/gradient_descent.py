@@ -22,5 +22,3 @@ for i in range(-30, 50):
 
 plt.plot(W_val, cost_val)
 plt.show()
-
-print(tf.__version__)
